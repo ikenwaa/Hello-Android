@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/owlcoffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="2.5dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/udacityy"
+        tools:ignore="ContentDescription" />
+        
+    <TextView
+        android:id="@+id/coffeeshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="275dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome to Udacity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call us 09012345678"
+        tools:ignore="ContentDescription"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="225dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.udacity.com"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="175dp"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="125dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:text="Mountain View, CA 94043"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/coffeeshop"
+        android:layout_marginBottom="21dp"
+        android:layout_marginStart="0dp"
+        android:paddingLeft="200dp"
+        android:text="Contact Us"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:coordinatorLayoutStyle=""/>
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top|right"
+        android:orientation="horizontal" />
+
+</RelativeLayout>
